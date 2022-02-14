@@ -83,7 +83,7 @@ function App() {
           ))}
       </div>
       <p>Number of Turns : {turns}</p>
-      <p>Made with &lt3 by Damodar</p>
+      <p>Made with ❤️ by Damodar</p>
     </div>
   );
 }
