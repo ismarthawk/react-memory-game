@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Magic Match</h1>
+      <h1>The Memory Game</h1>
       <button onClick={shuffleCards}>New Game</button>
       <div className="card-grid">
         {cards &&
@@ -83,6 +83,7 @@ function App() {
           ))}
       </div>
       <p>Number of Turns : {turns}</p>
+      <p>Made with &lt by Damodar</p>
     </div>
   );
 }
